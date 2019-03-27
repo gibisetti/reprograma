@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.formulario {
+    margin: 0 auto;
+    width: 500px;
+    margin-top: 50px;
+}
+
+.grupo-campo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.grupo-campo > label {
+    width: 50%;
+    text-align: right;
+}
+
+.meia-coluna {
+    width: 45%;
+}
+
+.grupo-campo > input,
+.grupo-campo > textarea,
+.grupo-campo > select {
+    width: 45%;
+    padding: 5px;
+}
+
+.btn {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+input, select {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    padding: 4px;
+}
+
+textarea {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+}
+
+input[type="number"] {
+    margin: 0 45px 0 0;
+    width: 180px;
+}
+
+.btn {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    border: 1px solid #ccc;
+    padding: 10px 29px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.btn-cinza {
+    background-color: #ccc;
+    color: #4a4a4a;
+    margin-right: 10px;
+}
+
+.btn-roxo {
+    background-color: #9013FE;
+    color: #ffffff;
+    margin-left: 10px;
+}

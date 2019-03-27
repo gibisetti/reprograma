@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    color: #474646;
+}
+
+.navegacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+    box-shadow:0 3px 4px -2px rgba(0, 0, 0, 0.15);
+    position: static;
+}
+
+.logo {
+    width: 100px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+.menu__item a {
+    text-decoration: none;
+    color: #474646;
+    margin: 0 15px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.navegacao__busca {
+    width: 20px;
+}
+
+.navegacao-usuario {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 10px
+}
+
+.usuario__item {
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.usuario__item a {
+    text-decoration: none;
+    color: #474646; 
+}
+
+.btn {
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5%;
+    border: 0;
+    font-weight: bold;
+}
+
+.navegacao-botao {
+    background-color: #934af4;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.apresentacao {
+    padding: 20px;
+    margin-left: 100px;
+    width: 30%;
+}
+
+.acoes {
+    width: 270px;
+    justify-content: space-between;
+}
+
+.apresentacao-botao {
+    background-color: #e91e63;
+}
+
+.link-apresentacao {
+    color: #adabab;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+.comunidade {
+    margin: 25px;
+}
+
+.chamada {
+    text-align: center;
+    margin: 50px;
+}
+
+.baner {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 50px;
+}
+
+.depoimentos {
+    width: 17%;
+}
+
+.universidade {
+    width: 185px;
+    margin: 0;
+    border-bottom: 2px solid #934af4;
+}
+
+.citacao {
+    margin: 25px 0;
+    font-size: 12px;
+    letter-spacing: 0.2px;
+}
+
+.nome {
+    margin: 0;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase
+}
+
+.colocacao {
+    margin: 0;
+    font-size: 10px;
+}
+
+.rodape {
+    background-color: #e91e63;
+    margin-top: 10px;
+    padding: 1px 0;
+}
+
+.creditos-rodape {
+    color: #ffffff;
+    text-align: center;
+    font-size: 10px;
+}

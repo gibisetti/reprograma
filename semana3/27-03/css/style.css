@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.navegacao {
+    background-color: #a0bed0;
+    color: #ffffff;
+    padding: 1.2% 9%;
+    position: static;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 9%;
+}
+
+.menu__item {
+    padding: 0 2.55%;
+}
+
+.chamada {
+    background-image: url("../img/foto-banner.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly
+}
+
+.chamada__apresentacao {
+    text-align: center;
+}
+
+.apresentacao__nome {
+    font-size: 105px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.apresentacao__slogam {
+    font-size: 22px;
+
+}
+
+.chamada_link {
+    text-align: center;
+}
+

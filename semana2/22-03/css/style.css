@@ -1,0 +1,64 @@
+body {
+    font-size: 13px;
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+th, 
+td {
+    border: 1px solid rgb(204, 197, 197);
+    padding: 8px 20px;
+}
+
+tbody > tr:nth-child(odd) {
+    background-color: #F5F5F5;
+}
+
+
+.planos {
+    margin: 0 auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.autonomo {
+    background-color: green;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.empresa {
+    background-color: blue;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.comprar {
+    border: none;
+    text-transform: uppercase;
+    padding: 8px;
+    border-radius: 5%;
+    background-color: #ff0606;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.linha-botoes > th {
+    padding: 8px 0;
+}
+
+tr td:first-child {
+    text-align: left;
+    padding: 0 5px 0 0;
+}
+
+.tickblue {
+    color: #0078C1;
+}
+
+.tickgreen {
+    color: #009E2C;
+}
+
+
+

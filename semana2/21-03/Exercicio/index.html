@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <section class="formulario">
+
+        <form action="#" method="POST">
+
+            <div class="grupo-campo">
+                <label for="texto-da-pessoa">Texto</label>
+                <input type="text" name="texto-da-pessoa">
+            </div>
+
+            <div class="grupo-campo">
+                <label for="senha-da-pessoa">Senha</label>
+                <input type="password" name="senha-da-pessoa">
+            </div>
+
+            <div class="grupo-campo">
+                <label for="confirmo-talento">Confirme aqui que você é uma mulher cheia de talentos</label>
+                <div class="meia-coluna">
+                    <input type="checkbox" name="confirmo-talento" value="confirmo-talento">
+                    <span>Confirmo que sou mesmo</span>
+                </div>
+            </div>
+
+            <div class="grupo-campo">
+                <label for="super-poderes">Escolha uma opção</label>
+                <div class="meia-coluna">
+                    <input type="radio" name="super-poderes" value="super-forca">
+                    <span>Super força</span>
+
+                    <input type="radio" name="super-poderes" value="ser-invisivel">
+                    <span>Ser invisível</span>
+
+                    <input type="radio" name="super-poderes" value="ler-mentes">
+                    <span>Ler mentes</span>
+
+                    <input type="radio" name="super-poderes" value="super-velocidade">
+                    <span>Super velocidade</span>
+                </div>
+            </div>
+
+            <div class="grupo-campo">
+                <label for="topico">Selecione um tópico</label>
+                <div class="meia-coluna">
+                    <select name="topico">
+                        <option value="site-bonito">Deixar meu site mais bonito</option>
+                        <option value="fim-patriarcado">Acabar com o patriarcado</option>
+                        <option value="revolucao-feminista">Fazer a revolução feminista</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="grupo-campo">
+                <label for="numero-escolhido">Escolha um valor</label>
+                <input type="number" min="10" max="20" name="numero-escolhido">
+            </div>
+
+            <div class="grupo-campo">
+                <label for="comentario">Conte sua vida:</label>
+                <textarea name="comentario" rows="4"></textarea>
+            </div>
+
+            <div class="grupo-campo">
+                <div></div>
+                <div class="meia-coluna">
+                    <input class="btn btn-cinza" type="reset" value="Reset">
+                    <input class="btn btn-roxo" type="submit" value="Submit">
+                </div>
+            </div>
+
+        </form>
+    </section>
+</body>
+
+</html>

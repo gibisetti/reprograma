@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(49, 49, 49);
+}
+
+.navegacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: 0 3px 4px -2px  rgba(0, 0, 0, 0.15);
+}
+
+.logo {
+    width: 170px;
+}
+
+.menu {
+    list-style: none;
+    padding-left: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 0 0 20px;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: #5d1277;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.conteudo {
+    margin-top: 30px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.autora {
+    width: 200px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.autora__foto {
+    width: 140px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 50%;
+}
+
+.autora__descricao {
+    width: 160px;
+    margin: 20px 20px 20px 35px;
+    font-size: 14px;
+  
+}
+
+.autora__nome {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.artigo {
+    width: 500px;
+}
+
+.rodape {
+    background-color: #a9a9a9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    font-size: 12px;
+}  
+
+.logo--pequeno {
+    width: 100px;
+    margin: 0 20px;
+}
+
+
+
