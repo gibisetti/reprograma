@@ -1,53 +1,141 @@
 body {
-    margin: 0;
     font-family: 'Nunito', sans-serif;
+    margin: 0;
 }
 
 .navegacao {
     background-color: #a0bed0;
-    color: #ffffff;
-    padding: 1.2% 9%;
-    position: static;
+    border: 1px;
+    border-color: #829dad;
+    text-align: right;
 }
 
 .menu {
     list-style: none;
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 9%;
+    margin: 0;
+    padding: 2.4% 16.55%;
+    color: #ffffff;
 }
 
 .menu__item {
-    padding: 0 2.55%;
+    margin: 0 2.55%;
+    display: inline;
 }
 
-.chamada {
+.cabecalho {
     background-image: url("../img/foto-banner.jpg");
     background-size: cover;
     background-position: center;
-    min-height: 80vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly
+    min-height: 80vh; 
+}
+
+.apresentacao {
+    text-align: center;
+    padding: 8%;
 }
 
 .chamada__apresentacao {
+    display: block;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
 }
 
 .apresentacao__nome {
+    margin: 0;
+    font-family:'Varela Round', sans-serif;
     font-size: 105px;
     color: #ffffff;
     text-transform: uppercase;
 }
 
 .apresentacao__slogam {
-    font-size: 22px;
-
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 0;
 }
 
-.chamada_link {
+.apresentacao__botao {
+    background-color: #829dad;
+    font-family: 'Nunito', sans-serif;
+    padding: 3.2% 5.2%;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 8px;
+    color: #ffffff;
+}
+
+.sobre {
+    display: block;
+    margin: 0 auto;
+    background-color: #161616;
+    color: #ffffff;
+    text-align: center;
+    padding: 1.5% 0 2.5% 0;
+}
+
+.sobre__apresentacao {
+    width: 47%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
 }
 
+.siberia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.siberia__img {
+  width: 54%;
+  margin: 3%;
+}
+
+.siberia__conteudo {
+    width: 13%;
+}
+
+.siberia__titulo {
+    margin-bottom: 0;
+}
+
+.siberia__trecho {
+    margin-top: 0;
+}
+
+.mosaico {
+    margin-top: 2%;
+}
+
+.groenlandia {
+    display: flex;
+    justify-content: center;
+}
+
+.groenlandia__img {
+    width: 500px;
+
+}
+
+.groenlandia__conteudo {
+    width: 26%;
+    background-color: #161616;
+    color: #ffffff;
+    text-align: left;
+    padding: 5.2%;
+    
+}
+
+.groenlandia__titulo {
+    margin-top: 0;
+}
+
+.groenlandia__trecho {
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
