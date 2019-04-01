@@ -1,0 +1,218 @@
+body {
+    margin: 0;
+    font-family: 'Asap', Arial, Helvetica, sans-serif;
+}
+
+/* Navegação */
+
+.navegacao__conteudo {
+    position: fixed;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.navegacao__menu-item {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 13px;
+    margin: 5px;
+}
+
+.navegacao__botao {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 13px;
+    border: #daa520 1px solid;
+    padding: 5px;
+    color: #daa520;
+    border-radius: 5px;
+}
+
+/* Cabeçalho */
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/bg-banner.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 87vh;
+    text-align: center;
+}
+
+.cabecalho__conteudo {
+    color: gainsboro;
+    padding: 10px;
+}
+
+.cabecalho__titulo {
+    font-family: 'Flamenco', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.cabecalho__apresentacao {
+    font-size: 15px;
+    margin-bottom: 35px;
+    margin-top: 20px;
+}
+
+.cabecalho__botao {
+    background-color: #fedd6a;
+    text-decoration: none;
+    color: #745813;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-size: 13px;
+}
+
+/* Sobre e Como funciona */
+
+.sobre__conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.sobre__img {
+    height: 100px;
+}
+
+
+.sobre__o-que {
+    padding: 10px 0 10px 20px;;
+}
+
+.sobre__titulo{
+    font-family: 'Flamenco', Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+.sobre__trecho {
+    font-size: 15px;
+    width: 380px;
+}
+
+.como-funciona__titulo {
+    font-family: 'Flamenco', Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-right: 45px;
+}
+
+.como-funciona__cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cards__passos {
+    text-align: center;
+    font-size: 15px;
+    width: 50%;
+    margin: 20px;
+}
+
+.passos__img {
+    width: 120px;
+}
+
+.trecho-destaque {
+    font-weight: bold;
+}
+
+/* Serviços */
+
+.servicos {
+    background-image: url(../img/bg-servicos.png);
+    padding: 50px;
+}
+
+.servicos__titulo {
+    font-family: 'Flamenco', Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.servicos__cards {
+    display: flex;
+    justify-content: center;
+}
+
+.cards__info {
+    position: relative;
+    width: 275px;
+    background-color: rgb(43, 193, 209);
+    padding: 40px 30px;
+    margin: 0 10px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+.cards__titulo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cards__img {
+    width: 120px;
+}
+
+.cards__trecho {
+    font-size: 15px;
+}
+
+.saber-mais {
+    background-color: #fedd6a;
+    text-decoration: none;
+    color: #745813;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-size: 13px;
+    position: absolute;
+    bottom: -17px;
+    right: 110px;
+}
+
+/* Numeros */
+
+.numeros {
+    background-image: url(../img/bg-numeros.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    color: #ffffff;
+    text-align: center; 
+}
+
+.voce-sabia {
+    font-family: 'Flamenco', Arial, Helvetica, sans-serif;
+}
+
+.numeros__sessoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.numeros__card {
+    text-align: center;
+    font-size: 15px;
+    width: 15%;
+    margin: 0 23px;
+}
+
+.numeros__titulo {
+    color: #fedd6a;
+    font-size: 25px;
+}
