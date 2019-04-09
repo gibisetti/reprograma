@@ -125,30 +125,30 @@
                 <h3 class="numeros__titulo">1000+</h3>
                 <p class="numeros__trecho">Brasileiros viajaram no ano de 2016</p>
             </div>
-            
+
         </div>
     </div>
 
-    <section>
+    <section class="contato">
         <h3>Alguma dúvida?</h3>
         <h3>Fale com a gente!</h3>
 
-        <div>
+        <div class="formulario">
             <form action="#" method="POST">
 
                 <div>
                     <label for="nome-da-pessoa">Nome</label>
-                    <input type="text" name="nome-da-pessoa">
+                    <input class="caixinha" type="text" name="nome-da-pessoa">
                 </div>
 
                 <div>
                     <label for="email-da-pessoa">E-mail</label>
-                    <input type="email" name="email-da-pessoa">
+                    <input class="caixinha" type="email" name="email-da-pessoa">
                 </div>
 
                 <div>
                     <label for="assunto">Assunto</label>
-                    <input type="text" name="assunto">
+                    <input class="caixinha" type="text" name="assunto">
                 </div>
 
                 <div>
@@ -156,13 +156,15 @@
                     <textarea name="mensagem" rows="6"></textarea>
                 </div>
 
-                <input type="submit" value="Enviar" disabled>
+                <div>
+                    <input class="contato__botao" type="submit" value="Enviar" disabled>
+                </div>
 
             </form>
         </div>
     </section>
 
-    <div>
+    <div class="newsletter">
         <h2>Fique ligado nas novidades da Guppe!</h2>
 
         <div>
@@ -171,8 +173,8 @@
         </div>
     </div>
 
-    <footer>
-        <div>
+    <footer class="rodape">
+        <div class="rodape__menu">
             <a href="#">Sobre</a>
             <a href="#">Como Funciona</a>
             <a href="#">Roteiros</a>
@@ -180,16 +182,16 @@
             <a href="#">Contato</a>
         </div>
 
-        <div>
+        <div class="rodape__sobre">
             <img src="./img/logo-footer.png" alt="logo Gruppe" title="logo Gruppe">
-            <p>Sharing experiences</p>
-            <p>contato@gruppe.com</p>
+            <p><span class="destaque">Sharing experiences</span></p>
+            <p><span class="destaque">contato@gruppe.com</span></p>
             <p>© Copyright 2019. Gruppe Viagens</p>
         </div>
 
-        <div>
-            <h3>Siga-nos nas redes sociais</h3>
-            <div>
+        <div class="social">
+            <h4>Siga-nos nas redes sociais:</h4>
+            <div class="icones-sociais">
                 <img src="./img/fb-icon.png" alt="ícone facebook" title="écone facebook">
                 <img src="./img/yt-icon.png" alt="ícono youtube" title="icone youtube">
             </div>
