@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: black;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo {
+    height: 70vh;
+    margin-top: 70px;
+}
+
+#botao {
+    height: 10vh;
+    margin-top: 20px;
+}
