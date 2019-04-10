@@ -214,5 +214,121 @@ body {
 
 .numeros__titulo {
     color: #fedd6a;
-    font-size: 25px;
+    font-size: 30px;
+}
+
+/* Contato/Form*/
+
+.contato h3 {
+    font-family: 'Flamenco', Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.formulario div {
+   width: 400px;
+   margin: 0 auto;
+   box-sizing: border-box;
+}
+
+label {
+    text-align: left;
+    font-size: 16px;
+}
+
+.caixinha {
+    display: block;
+    width: 100%;
+    background-color: #f3f394;
+    border: #ffff66; 
+}
+
+textarea {
+    display: block;
+    width: 99%;
+    background-color: #f3f394;
+    border: #ffff66;
+}
+
+.contato__botao {
+    display: block;
+    width: 100%;
+    background-color: #1a8cff;
+    border: #1a8cff; 
+    padding: 10px;
+    margin-top: 5px;
+    color: #ffffff;
+}
+
+/* Newsletter */
+
+.newsletter {
+    background-color: #ffff66;
+    padding: 60px 10px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+.newsletter h2 {
+    font-family: 'Flamenco', Arial, Helvetica, sans-serif;
+    margin-top: 0;
+}
+
+.newsletter div {
+    width: 70%;
+    margin: 0 auto;
+    
+}
+
+.newsletter input {
+    width: 35%;
+    padding: 4px;
+}
+
+.newsletter button {
+    width: 20%;
+    background-color: #ff6347;
+    border: #ff6347;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.rodape {
+    background-color: #595959;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+}
+
+.rodape__menu {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.rodape__menu a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.rodape__sobre {
+    text-align: center;
+    font-size: 14px;
+}
+
+.destaque {
+    font-weight: bold;
+}
+
+.social {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.icones-sociais img {
+    margin: 0 5px;
 }
