@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    
+    <title>Exercício média</title>
+</head>
+
+<body>
+
+    <form>
+        <div class="form">
+                <h3>Calcule sua média</h3>
+            <div>
+                <label for="nota1">Primeira nota</label>
+                <input id="nota1" type="number" min="0" max="10" name="primeira-nota">
+            </div>
+
+            <div>
+                <label for="nota2">Segunda nota</label>
+                <input id="nota2" type="number" min="0" max="10" name="segunda-nota">
+            </div>
+
+            <button id="botao" onclick="media()">
+                Calcular
+            </button>
+        </div>
+    </form>
+</body>
+
+<script src="./script.js"></script>
+</html>
