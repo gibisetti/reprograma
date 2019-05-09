@@ -17,7 +17,7 @@ soma *= 3;
 27
 
 // Declare uma variável chamada "turma7", atribuindo à ela o valor booleano que representa "verdadeiro".
-var tumar7 = true;
+var turma7 = true;
 
 // Declare uma variável chamada "comida" que recebe um array com strings referentes ao que você comeu hoje.
 var comida = ["hamburger","batata","refri"];

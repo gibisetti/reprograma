@@ -1,0 +1,21 @@
+.section-clients {
+    background-color: $color-bg;
+
+    h4 {
+        margin: 0;
+        @include title (uppercase, $color-primary);
+    }
+
+    .container {
+        text-align: center;
+    }
+
+    .list-unstyled {
+        @include flex (center, space-evenly);
+    }
+
+    p {
+        font-size: $font-size-text;
+        color: darken($color-bg, 50%);
+    }
+}
