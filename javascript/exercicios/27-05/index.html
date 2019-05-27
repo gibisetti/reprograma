@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercício 4</title>
+</head>
+<body>
+    <ul></ul>
+
+    <script>
+
+    let lista = ["pera", "uva", "tomate", "caqui", "abacaxi"];
+    // let listUl = document.getElementsByTagName('ul'); // para usar o tagname, é preciso informar a posição que você quer.
+    let listUl = document.querySelector('ul');
+
+    let listLi= document.createElement('li');
+    let textElement = document.createTextNode(lista[0]);
+
+    // listUl[0].appendChild(listLi);
+    listUl.appendChild(listLi);
+    listLi.appendChild(textElement);
+
+
+
+// array
+
+let animais = ["dog", "gato", "pato", "coelho", "periquita", "bode"];
+// pega ul
+let listUl = document.querySelector("ul");
+
+for (cada of animais) {
+    // cria li
+    let listLi = document.createElement("li");
+
+    // let textElement = document.createTextNode(animais[1]);
+    // listLi.appendChild(textElement);     ou
+
+    // inserir valor dentro do li
+    listLi.textContent = cada;
+    // adiciona li dentro da ul
+    listUl.appendChild(listLi);
+}
+
+
+    </script>
+
+</body>
+</html>
